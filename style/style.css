@@ -1,0 +1,39 @@
+*, ::after, ::before{
+    padding: 0;
+    margin: 0;
+    font-family: "Parkinsans", Verdana, Geneva, Tahoma, sans-serif, serif;
+    font-optical-sizing: auto;
+    font-weight: weight;
+    font-style: normal;
+    box-sizing: border-box;
+}
+body{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    color:#fff;
+    justify-content: center;
+    align-items: center;
+}
+body #app{
+
+max-width: 500px;
+padding: 20px;
+justify-content: center;
+align-items: center;
+max-height: 600px;
+background-color: blueviolet;
+border-radius: 7px;
+display: flex;
+box-shadow: 0 2px 18px rgba(0, 0, 0, 0.3);
+flex-direction: column;
+gap: 50px;
+
+}
+#app:hover{
+    transform: scale(1.01);
+}
+#app .header h3{
+text-align: center;
+font-size: clamp(1rem, 2vw +1rem, 1.7rem);
+}

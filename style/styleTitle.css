@@ -1,0 +1,50 @@
+*, ::after, ::before{
+    padding: 0;
+    margin: 0;
+    font-family: "Parkinsans", Verdana, Geneva, Tahoma, sans-serif, serif;
+    font-optical-sizing: auto;
+    font-weight: weight;
+    font-style: normal;
+    box-sizing: border-box;
+}
+body{
+ 
+    background-color: #fff;
+    color:#fff;
+    /* background-image: url(/asset/e53cd4085ea5e4bad4718a4adb73bc5d.jpg); */
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image: url(/asset/4c45b07bfb3162471bca88e19e819710.jpg);
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 100vw;
+    background-position: center;
+}
+h1{
+    padding-bottom: 100px;
+    font-size: clamp(1.4rem, 4vw, 5rem);
+}
+p{
+    max-width: 600px;
+    font-size: clamp(1.2rem, 1.1vw, 2rem);
+    line-height: 35px;
+}
+div{
+    padding: 30px;
+min-width: 300px;
+
+}
+div a{ 
+    background-color: #fff;
+text-decoration: none;
+color:#333;
+padding: 10px 30px;
+border-radius: 9999px;
+
+}
+div a:hover{
+    transform: scale(1.1);
+}
