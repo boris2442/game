@@ -10,7 +10,7 @@
 body{
  
     background-color: #fff;
-    color:#fff;
+  
     
     /* background-repeat: no-repeat;
     background-size: cover;
@@ -24,7 +24,7 @@ body{
     /* background-position: center; */
 }
 h1{
-    padding-bottom: 100px;
+    padding-bottom: 70px;
     color:blueviolet;
     font-size: clamp(1.4rem, 4vw, 5rem);
 }
