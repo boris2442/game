@@ -10,8 +10,10 @@
 body{
     width: 100vw;
     height: 100vh;
+    background-color: #fff;
     display: flex;
-    color:#fff;
+    /* color:#fff; */
+    flex-direction: column;
     justify-content: center;
     align-items: center;
 }
@@ -93,8 +95,11 @@ body{
 .lettre:nth-child(13){
     animation-delay: 1.3s;
 }
-body #app{
+body p{
 
+}
+body #app{
+    color: white;
 max-width: 500px;
 padding: 20px;
 justify-content: center;
@@ -113,5 +118,6 @@ gap: 50px;
 }
 #app .header h3{
 text-align: center;
+color: white;
 font-size: clamp(1rem, 2vw +1rem, 1.7rem);
 }
