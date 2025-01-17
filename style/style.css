@@ -8,11 +8,12 @@
     box-sizing: border-box;
 }
 body{
-    width: 100vw;
-    height: 100vh;
+   width: 100vw;
+    min-height: 100vh;
     background-color: #fff;
     display: flex;
     /* color:#fff; */
+    overflow-x: hidden;
     flex-direction: column;
     justify-content: center;
     align-items: center;
@@ -96,17 +97,21 @@ body{
     animation-delay: 1.3s;
 }
 body p{
+    padding-top: 30px;
 padding-bottom: 30px;
 max-width: 400px;
+padding: 20px;
 line-height: 29px;
 }
 body #app{
     color: white;
-max-width: 500px;
+/* max-width: 700px; */
+width: auto;
 padding: 20px;
 justify-content: center;
 align-items: center;
-max-height: 600px;
+margin: 10px;
+/* minheight: 600px; */
 background-color: blueviolet;
 border-radius: 7px;
 display: flex;
@@ -137,4 +142,10 @@ border-radius: 9999px;
 a:hover{
     transform: scale(1.1);
     background-color: #333;
+}
+
+
+footer div{
+    padding: 30px;
+    padding-bottom: 0px;
 }

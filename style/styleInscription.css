@@ -66,3 +66,8 @@ input[type="submit"]:hover{
 .error{
     border:2px solid red ;
 }
+
+footer{
+    text-align: center;
+    padding-top: 30px;
+}
