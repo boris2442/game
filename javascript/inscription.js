@@ -4,6 +4,7 @@ const spanName=document.getElementById("spanName");
 const inputMail=document.querySelector("#inputMail");
 const spanMail=document.querySelector("#spanMail");
 const forms=document.querySelector("form");
+const textarea=document.querySelector("textarea")
 const spanTextarea=document.querySelector("#spanTextarea")
 
 inputName.addEventListener("input", (e) =>{
@@ -19,4 +20,17 @@ inputName.addEventListener("input", (e) =>{
         spanName.textContent="";
     }
 });
+
+textarea.addEventListener("input", (e)=>{
+    const valueTextarea=e.target.value;
+    if(valueTextarea.length<3 || valueTextarea.length>250){
+        textarea.classList.add("error");
+        spanTextarea.textContent='ce champ doit avoir entre 3 et 250 caracteres';
+   }
+else{
+        textarea.classList.remove("error");
+        spanTextarea.textContent="";
+    } 
+})
+
 
