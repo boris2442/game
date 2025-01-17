@@ -1,0 +1,53 @@
+*, ::after, ::before{
+    padding: 0;
+    outline: none;
+    margin: 0;
+    font-family: "Parkinsans", Verdana, Geneva, Tahoma, sans-serif, serif;
+    font-optical-sizing: auto;
+    font-weight: weight;
+    font-style: normal;
+    box-sizing: border-box;
+}
+body{
+    width: 100vw;
+    height: 100vh;
+    background-color: #fff;
+    /* display: flex; */
+    /* color:#fff; */
+    /* flex-direction: column;
+    justify-content: center;
+    align-items: center; */
+}
+body h2{
+    font-size: clamp(1rem, 2vw +1rem, 1.7rem); 
+    color:blueviolet;
+    text-align: center;  
+}
+body form{
+    padding-top: 50px;
+    display: flex;
+    width: 100vw;
+    margin: 0 auto;
+    max-width: 400px;
+    flex-direction: column;
+    gap:10px;
+    justify-content: center;
+    align-items: center;
+}
+
+body form input, body form span, body form textarea{
+    width: 90%;
+    padding: 10px;
+    border-radius: 7px;
+    max-width: 400px;
+}
+body form textarea{
+    resize: none;
+    padding: 20px;
+    text-align: center;
+    height: 170px;
+}
+input[type="submit"]{
+    color:#fff;
+    background-color: blueviolet;
+}

@@ -123,3 +123,18 @@ text-align: center;
 color: white;
 font-size: clamp(1rem, 2vw +1rem, 1.7rem);
 }
+
+
+a{ 
+    margin-top: 40px;
+    background-color: blueviolet;
+text-decoration: none;
+color:#fff;
+padding: 10px 30px;
+border-radius: 9999px;
+
+}
+a:hover{
+    transform: scale(1.1);
+    background-color: #333;
+}
