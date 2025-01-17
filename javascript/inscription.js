@@ -34,3 +34,8 @@ else{
 })
 
 
+forms.addEventListener("submit", (e)=>{
+    e.preventDefault()
+    alert("formulaire soumis avec succes!")
+})
+
