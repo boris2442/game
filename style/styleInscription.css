@@ -12,11 +12,7 @@ body{
     width: 100vw;
     height: 100vh;
     background-color: #fff;
-    /* display: flex; */
-    /* color:#fff; */
-    /* flex-direction: column;
-    justify-content: center;
-    align-items: center; */
+   
 }
 body h2{
     font-size: clamp(1rem, 2vw +1rem, 1.7rem); 
@@ -69,16 +65,12 @@ input[type="submit"]:hover{
 
 footer{
     text-align: center;
+    width: 100vw;
     padding-top: 30px;
 }
-/* Appliquer un effet de fondu en sortie */
-.fade-out {
-    opacity: 0;
-    transition: opacity 0.5s ease-in-out;  /* L'élément va devenir transparent en 0.5 seconde */
-  }
-  
-  /* Appliquer un effet de fondu en entrée */
-  .fade-in {
-    opacity: 1;
-    transition: opacity 0.5s ease-in-out;  /* L'élément va devenir visible en 0.5 seconde */
-  }
+footer div{
+    width: 100%;
+}
+footer p{
+    width: 100%;
+}
