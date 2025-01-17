@@ -4,7 +4,7 @@
 // ))
 const headerTitle=document.querySelector("#header-title");
 const content = document.getElementById("paraText");
-console.log(content)
+// console.log(content)
 function getJoke(){
 
     fetch("https://api.blablagues.net/?rub=blagues").then((res)=>res.json()).then((data) =>{
