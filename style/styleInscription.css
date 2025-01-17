@@ -47,7 +47,7 @@ body form input, body form span, body form textarea{
     max-width: 400px;
 }
 body form span{
-  
+    font-size: 12px;
 }
 body form textarea{
     resize: none;
@@ -71,3 +71,14 @@ footer{
     text-align: center;
     padding-top: 30px;
 }
+/* Appliquer un effet de fondu en sortie */
+.fade-out {
+    opacity: 0;
+    transition: opacity 0.5s ease-in-out;  /* L'élément va devenir transparent en 0.5 seconde */
+  }
+  
+  /* Appliquer un effet de fondu en entrée */
+  .fade-in {
+    opacity: 1;
+    transition: opacity 0.5s ease-in-out;  /* L'élément va devenir visible en 0.5 seconde */
+  }
