@@ -31,6 +31,11 @@ body form{
     max-width: 400px;
     flex-direction: column;
     gap:10px;
+    box-shadow: 2px 3px 7px #333,
+                -2px 3px 7px #333;
+    padding: 20px;
+    margin-top: 30px;
+    border-radius: 7px;
     justify-content: center;
     align-items: center;
 }
@@ -38,8 +43,11 @@ body form{
 body form input, body form span, body form textarea{
     width: 90%;
     padding: 10px;
-    border-radius: 7px;
+    border-radius: 9999px;
     max-width: 400px;
+}
+body form span{
+  
 }
 body form textarea{
     resize: none;
@@ -49,5 +57,12 @@ body form textarea{
 }
 input[type="submit"]{
     color:#fff;
+cursor: pointer;
     background-color: blueviolet;
+}
+input[type="submit"]:hover{
+    background-color: #333;
+}
+.error{
+    border:2px solid red ;
 }
