@@ -140,5 +140,7 @@ div a:hover{
   /* Appliquer un effet de fondu en entrée */
   .fade-in {
     opacity: 1;
-    transition: opacity 0.5s ease-in-out;  /* L'élément va devenir visible en 0.5 seconde */
+    transition: opacity 0.5s ease-in-out;  
   }
+
+  
